@@ -10,13 +10,10 @@ def call(env)
 
   binding.pry
 
-  if requ.path.match("/items/<Item Name>")
-
-  else
-    resp.status = 404
-
-  end
-
-
-
+  # if requ.path.match("/items/<Item Name>")
+  #
+  # else
+  #   resp.status = 404
+  #
+  # end
 end
