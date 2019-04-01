@@ -4,9 +4,7 @@ def call(env)
   req = Rack::Request.new(env)
 
 
-Item.new("Apple", 20)
-Item.new("Carrot", 5)
-Item.new("Biscuit", 15)
+
 
   binding.pry
 
