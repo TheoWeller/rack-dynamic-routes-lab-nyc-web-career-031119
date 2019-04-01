@@ -4,6 +4,9 @@ def call(env)
   req = Rack::Request.new(env)
 
   @@items = []
+  Item.new("Apple", 20)
+  Item.new("Carrot", 5)
+  Item.new("Biscuit", 15)
 
   if requ.path.match("/items/<Item Name>")
 
