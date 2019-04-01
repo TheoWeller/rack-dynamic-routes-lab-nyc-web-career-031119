@@ -4,9 +4,10 @@ def call(env)
   req = Rack::Request.new(env)
 
   @@items = []
-  Item.new("Apple", 20)
-  Item.new("Carrot", 5)
-  Item.new("Biscuit", 15)
+@@items << Item.new("Apple", 20)
+@@items << Item.new("Carrot", 5)
+@@items << Item.new("Biscuit", 15)
+  binding.pry
 
   if requ.path.match("/items/<Item Name>")
 
