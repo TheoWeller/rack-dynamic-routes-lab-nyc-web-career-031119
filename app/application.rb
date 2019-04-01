@@ -3,7 +3,7 @@ def call(env)
   resp = Rack::Response.new
   req = Rack::Request.new(env)
 
-  @@items = []
+@@items = []
 @@items << Item.new("Apple", 20)
 @@items << Item.new("Carrot", 5)
 @@items << Item.new("Biscuit", 15)
