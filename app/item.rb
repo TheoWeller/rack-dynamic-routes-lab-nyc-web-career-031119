@@ -5,4 +5,8 @@ class Item
     @name = name
     @price = price
   end
+
+  Item.new("Apple", 20)
+  Item.new("Carrot", 5)
+  Item.new("Biscuit", 15)
 end
